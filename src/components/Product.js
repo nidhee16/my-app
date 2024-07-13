@@ -17,6 +17,12 @@ function Product(props) {
                         <div className='header'>{title}</div>
                         <div className='meta price'>${price}</div>
                         <div className='meta'>{category}</div>
+                        <div className="ui vertical animated button" tabIndex="0">
+                                <div className="hidden content" >
+                                    <i className="shop icon"></i>
+                                </div>
+                                <div className="visible content">Add To Cart</div>
+                            </div>
                     </div>
                 </div>
             </div>

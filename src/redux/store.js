@@ -1,12 +1,13 @@
 
 
 import { combineReducers } from 'redux'
-import { productReducers } from './reducers/productReducer'
+import { productReducers, selectedproductReducers } from './reducers/productReducer'
 
 
 
  const rootReducer=combineReducers({
-    allProducts:productReducers
+    allProducts:productReducers,
+    product:selectedproductReducers
  })
 
  export default rootReducer

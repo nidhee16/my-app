@@ -10,7 +10,6 @@ function ProductList(props) {
     const products = useSelector(state => state)
     const dispatch = useDispatch()
 
-
     useEffect(() => {
         dispatch(fetchProducts())
     }, [])

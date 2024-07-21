@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const apiCall = axios.create({
-    baseURL: 'http://localhost:5000'
+    baseURL: 'https://express-mongodb-my-app.onrender.com'
 })
 
 export default apiCall
